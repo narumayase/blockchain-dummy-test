@@ -1,22 +1,22 @@
 # blockchain-dummy-test
 
-Pasaje de código de JS a Golang. Ejemplo de funcionamiento de una blockchain simple.
+Passing code from JS to Golang. Example of how a simple blockchain works.
 
-Fuente: https://medium.com/geekculture/blockchain-explained-in-50-lines-of-code-1dbf4eda0201 
+Source: https://medium.com/geekculture/blockchain-explained-in-50-lines-of-code-1dbf4eda0201 
 
-## Construido con 🛠
+## Built on 🛠
 
-* [Golang](https://golang.org/) - Lenguaje de programación.
+* [Golang](https://golang.org/)
 
-## Comenzando 🚀
+## Starting 🚀
 
-### Pre-requisitos
+### Requirements
 
-Herramientas necesarias para la ejecución local del servicio:
+Necessary tools for the local execution of the service:
 
 - Go go1.16+.
 
-* Para ejecutar los tests:
+* Running unit tests:
 
 ```
 $ go test ./...
@@ -24,7 +24,7 @@ $ go test ./...
 ok      blockchain-dummy-test/pkg       1.113s
 ```
 
-* Para evaluar coverage:
+* Coverage check:
 
 ```
 $ go test -coverprofile=coverage.out ./...
@@ -32,7 +32,7 @@ $ go test -coverprofile=coverage.out ./...
 ok      blockchain-dummy-test/pkg       5.300s  coverage: 92.3% of statements
 ```
 
-* Coverage de manera más detallada:
+* Detailed coverage:
 
 ```
 $ go tool cover -func=coverage.out
@@ -48,16 +48,6 @@ blockchain-dummy-test/pkg/blockchain.go:21:     IsValid         87.5%
 total:                                          (statements)    92.3%
 ```
 
-* Ejemplo de cómo se ve:
+* Example of debugging:
 
 ![image](https://user-images.githubusercontent.com/76977457/144313732-efa20532-c466-4fce-bcf1-495205b92581.png)
-
-
-## Roadmap
-
-- [x] Estructura de proyecto
-- [x] Pensar algoritmo
-- [x] Readme
-- [x] Algoritmo terminado
-- [x] Test unitarios
- 
